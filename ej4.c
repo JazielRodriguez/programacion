@@ -8,7 +8,7 @@ int main()
     scanf("%d", &a);
     printf("Ingresa el segundo numero: ");
     scanf("%d", &b);
-    if (a <= 0 && b <= 0)
+    if (a <= 0 || b <= 0)
     {
         printf("Los numeros deben ser enteros positivos");
         return 0;
